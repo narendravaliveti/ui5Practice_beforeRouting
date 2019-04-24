@@ -1,5 +1,5 @@
 <mvc:View
-        controllerName="ui5practice_beforerouting.view2"
+        controllerName="controller.view2"
         xmlns="sap.m"
         xmlns:mvc="sap.ui.core.mvc">
         <Button

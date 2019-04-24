@@ -3,7 +3,7 @@ sap.ui.define([
     "sap/m/MessageToast",
     "sap/ui/model/json/JSONModel"
     ],function (oController,oMessageToast,JSONModel) {
-                return oController.extend("ui5practice_beforerouting.view1", {
+                return oController.extend("controller.view1", {
                     onInit() {
                         var oData = {
                             student : {
@@ -16,8 +16,9 @@ sap.ui.define([
                     onBtnPress() {
                         app.to(page2);
                     },
-                    onBtnPress1() {
-                        oMessageToast.show("MessageToast");
+                    onBtnPress1(oController) {
+                        var oName = this.getView().getModel().getProperty("/student").name;
+                        oMessageToast.show("Hello "+oName);
                     }
                 });
 });

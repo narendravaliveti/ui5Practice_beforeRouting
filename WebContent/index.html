@@ -8,15 +8,22 @@
 				id="sap-ui-bootstrap"
 				data-sap-ui-libs="sap.m"
 				data-sap-ui-theme="sap_bluecrystal"
-				data-sap-ui-bindingsyntax="complex">
+				data-sap-ui-bindingsyntax="complex"
+				<!--data-sap-ui-compatversion="edge"-->
+				<!--Registering a namespace-->
+				<!--data-sap-ui-resourceroots='{-->
+					<!--"webcontent":"./"-->
+				<!--}'>-->
 		</script>
 		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
 
 		<script>
-			sap.ui.localResources("ui5practice_beforerouting");
+			//	Alternate way to register a namespace
+			sap.ui.localResources("controller");
+			sap.ui.localResources("views");
 			var app = new sap.m.App({initialPage:"idview1"});
-			var page1 = sap.ui.view({id:"idview1",viewName:"ui5practice_beforerouting.view1",type:sap.ui.core.mvc.ViewType.XML});
-			var page2 = sap.ui.view({id:"idview2",viewName:"ui5practice_beforerouting.view2",type:sap.ui.core.mvc.ViewType.XML});
+			var page1 = new sap.ui.core.mvc.XMLView({id:"idview1",viewName:"views.view1"});
+			var page2 = new sap.ui.core.mvc.XMLView({id:"idview2",viewName:"views.view2"});
 			app.addPage(page1).addPage(page2);
 			app.placeAt("content");
 		</script>
