@@ -21,6 +21,8 @@
 			//	Alternate way to register a namespace
 			sap.ui.localResources("controller");
 			sap.ui.localResources("views");
+			sap.ui.localResources("JSON");
+			sap.ui.localResources("i18n");
 			var app = new sap.m.App({initialPage:"idview1"});
 			var page1 = new sap.ui.core.mvc.XMLView({id:"idview1",viewName:"views.view1"});
 			var page2 = new sap.ui.core.mvc.XMLView({id:"idview2",viewName:"views.view2"});

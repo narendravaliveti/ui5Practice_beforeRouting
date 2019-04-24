@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="41352ddb-cbf4-4ca2-90dc-9c92f9d9ecf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/controller/view1.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/controller/view1.controller.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view1.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/controller/view1.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view1.view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/views/view1.view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view2.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/controller/view2.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view2.view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/views/view2.view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/views/view1.view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/views/view1.view.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="255">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -32,17 +30,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/views/view1.view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/controller/view1.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/controller/view1.controller.js">
+        <entry file="file://$PROJECT_DIR$/WebContent/JSON/model.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="17">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/i18n/i18n.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -90,11 +106,13 @@
         <option value="$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view2.cont.js" />
         <option value="$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view1.view.xml" />
         <option value="$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view1.controller.js" />
-        <option value="$PROJECT_DIR$/WebContent/views/view1.view.xml" />
         <option value="$PROJECT_DIR$/WebContent/controller/view2.controller.js" />
         <option value="$PROJECT_DIR$/WebContent/views/view2.view.xml" />
-        <option value="$PROJECT_DIR$/WebContent/controller/view1.controller.js" />
+        <option value="$PROJECT_DIR$/WebContent/JSON/model.json" />
         <option value="$PROJECT_DIR$/WebContent/index.html" />
+        <option value="$PROJECT_DIR$/WebContent/i18n/i18n.properties" />
+        <option value="$PROJECT_DIR$/WebContent/controller/view1.controller.js" />
+        <option value="$PROJECT_DIR$/WebContent/views/view1.view.xml" />
       </list>
     </option>
   </component>
@@ -104,7 +122,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="662" />
     <option name="width" value="694" />
     <option name="height" value="735" />
@@ -128,6 +146,18 @@
               <item name="ui5Practice_beforeRouting" type="b2602c69:ProjectViewProjectNode" />
               <item name="ui5Practice_beforeRouting" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui5Practice_beforeRouting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui5Practice_beforeRouting" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui5Practice_beforeRouting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui5Practice_beforeRouting" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="JSON" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,18 +218,19 @@
       <workItem from="1556080444831" duration="1736000" />
       <workItem from="1556082236141" duration="1763000" />
       <workItem from="1556084103101" duration="1918000" />
-      <workItem from="1556086227592" duration="82000" />
+      <workItem from="1556086227592" duration="1789000" />
+      <workItem from="1556088350806" duration="1772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22045000" />
+    <option name="totallyTimeSpent" value="25524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="662" y="0" width="694" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122023806" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,7 +242,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2795699" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30232558" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -229,10 +260,10 @@
     <entry file="file://$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view2.xml" />
     <entry file="file://$PROJECT_DIR$/WebContent/ui5practice_beforerouting/view2.cont.js" />
     <entry file="file://$PROJECT_DIR$/server.js" />
-    <entry file="file://$PROJECT_DIR$/WebContent/views/view1.view.xml">
+    <entry file="file://$PROJECT_DIR$/WebContent/JSON/model.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="17">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -250,17 +281,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/controller/view1.controller.js">
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/i18n/i18n.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/views/view1.view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/controller/view1.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
         </state>
       </provider>
     </entry>

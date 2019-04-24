@@ -3,10 +3,10 @@
         xmlns="sap.m"
         xmlns:mvc="sap.ui.core.mvc">
         <Button
-                text="Next Page"
+                text="{i18n>nextPageBtnTxt}"
                 press=".onBtnPress"/>
         <Button
-                text="MsgToast"
+                text="{i18n>msgToastBtnTxt}"
                 press=".onBtnPress1"/>
         <Input
                 value="{/student/name}"
